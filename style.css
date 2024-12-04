@@ -1,0 +1,99 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#circlediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 2px solid #999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#red {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+button#red:hover {
+    background-color: #cc0000;
+}
+
+button#green {
+    background-color: #4caf50;
+    color: white;
+}
+
+button#green:hover {
+    background-color: #357a38;
+}
+
+button#blue {
+    background-color: #007bff;
+    color: white;
+}
+
+button#blue:hover {
+    background-color: #0056b3;
+}
+
+button#reset {
+    background-color: #f4f4f9;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+button#reset:hover {
+    background-color: #e0e0e0;
+}
+
+.inputdiv {
+    margin-top: 10px;
+}
+
+#colour {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
